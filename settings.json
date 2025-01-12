@@ -1,4 +1,6 @@
 {
+    "terminal.integrated.defaultProfile.osx": "tmux",
+    "window.commandCenter": false,
     "window.nativeTabs": true,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
@@ -220,4 +222,5 @@
         "notificationToast.background": "#0e1016", // Notification toast background
         "breadcrumb.background": "#0e1016" // Breadcrumb background
     },
+    "workbench.layoutControl.enabled": false,
 }
