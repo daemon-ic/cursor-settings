@@ -1,5 +1,11 @@
 {
     "workbench.colorTheme": "GitHub Dark",
+    "editor.tokenColorCustomizations": {
+        "[GitHub Dark]": {
+            "strings": "#93d7ba",
+            "comments": "#3a3b44"
+        },
+    },
     "workbench.colorCustomizations": {
         "menu.background": "#0e1016",
         "list.dropBackground":"#0e1016", 
