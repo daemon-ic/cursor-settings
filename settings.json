@@ -1,0 +1,175 @@
+{
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#fff",
+        "terminalCursor.foreground": "#fff",
+        "statusBar.background": "#0c0b0c",
+        "statusBar.noFolderBackground": "#89043D",
+        "statusBar.debuggingBackground": "#89043D"
+    },
+    "window.nativeTabs": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "C-j"
+            ],
+            "after": [
+                "1", "0", "j", "z", "z"
+            ]
+        },
+        {
+            "before": [
+                "C-k"
+            ],
+            "after": [
+                "1", "0", "k", "z", "z"
+            ]
+        },
+        {
+            "before": [
+                "C-l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "C-h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "C-j"
+            ],
+            "after": [
+                "1", "0", "j", "z", "z"
+            ]
+        },
+        {
+            "before": [
+                "C-k"
+            ],
+            "after": [
+                "1", "0", "k", "z", "z"
+            ]
+        },
+        {
+            "before": [
+                "C-l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "C-h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [
+                "<C-u>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "after": [
+                "<C-d>",
+                "z",
+                "z"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "e"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ]
+}
