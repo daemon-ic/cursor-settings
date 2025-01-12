@@ -1,41 +1,23 @@
 {
-    "workbench.colorTheme": "GitHub Dark",
-    "editor.tokenColorCustomizations": {
-        "[GitHub Dark]": {
-            "strings": "#93d7ba",
-            "comments": "#3a3b44"
-        },
-    },
-    "workbench.colorCustomizations": {
-        "menu.background": "#0e1016",
-        "list.dropBackground":"#0e1016", 
-        "input.background": "#0e1016",
-        "editorGutter.background": "#0e1016",
-        "dropdown.background":  "#0e1016",
-        "editorGroupHeader.tabsBackground": "#0e1016",
-        "commandCenter.background": "#0e1016",
-        "commandCenter.activeBackground":"#0e1016",
-        "editor.lineHighlightBackground":"#0e1016",
-        "editor.background": "#0e1016", // Editor background
-        "sideBar.background": "#0e1016", // Sidebar background
-        "activityBar.background": "#0e1016", // Activity bar background
-        "titleBar.activeBackground": "#0e1016", // Title bar background
-        "titleBar.inactiveBackground": "#0e1016", // Inactive title bar background
-        "panel.background": "#0e1016", // Bottom panel background
-        "statusBar.background": "#0e1016", // Status bar background
-        "statusBar.noFolderBackground": "#0e1016", // Status bar when no folder is open
-        "tab.activeBackground": "#0e1016", // Active tab background
-        "tab.inactiveBackground": "#0e1016", // Inactive tab background
-        "terminal.background": "#0e1016", // Terminal background
-        "notificationCenter.background": "#0e1016", // Notification center background
-        "notificationToast.background": "#0e1016", // Notification toast background
-        "breadcrumb.background": "#0e1016" // Breadcrumb background
-    },
     "window.nativeTabs": true,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.folding": false,
     "editor.renderLineHighlight": "none",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.allowedLinkSchemes": [
+        "file",
+        "http",
+        "https",
+        "mailto",
+        "vscode",
+        "vscode-insiders",
+        "docker-desktop"
+    ],
+
+    // vim ---------------------------------------------------------------------
+
     "vim.useSystemClipboard": true,
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -203,15 +185,39 @@
             ]
         }
     ],
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "terminal.integrated.allowedLinkSchemes": [
-        "file",
-        "http",
-        "https",
-        "mailto",
-        "vscode",
-        "vscode-insiders",
-        "docker-desktop"
-    ],
+
+    // styles ---------------------------------------------------------------------
+
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.tokenColorCustomizations": {
+        "[GitHub Dark]": {
+            "strings": "#93d7ba",
+            "comments": "#43475e"
+        },
+    },
+    "workbench.colorCustomizations": {
+        "menu.background": "#0e1016",
+        "list.dropBackground":"#0e1016", 
+        "input.background": "#0e1016",
+        "editorGutter.background": "#0e1016",
+        "dropdown.background":  "#0e1016",
+        "editorGroupHeader.tabsBackground": "#0e1016",
+        "commandCenter.background": "#0e1016",
+        "commandCenter.activeBackground":"#0e1016",
+        "editor.lineHighlightBackground":"#0e1016",
+        "editor.background": "#0e1016", // Editor background
+        "sideBar.background": "#0e1016", // Sidebar background
+        "activityBar.background": "#0e1016", // Activity bar background
+        "titleBar.activeBackground": "#0e1016", // Title bar background
+        "titleBar.inactiveBackground": "#0e1016", // Inactive title bar background
+        "panel.background": "#0e1016", // Bottom panel background
+        "statusBar.background": "#0e1016", // Status bar background
+        "statusBar.noFolderBackground": "#0e1016", // Status bar when no folder is open
+        "tab.activeBackground": "#0e1016", // Active tab background
+        "tab.inactiveBackground": "#0e1016", // Inactive tab background
+        "terminal.background": "#0e1016", // Terminal background
+        "notificationCenter.background": "#0e1016", // Notification center background
+        "notificationToast.background": "#0e1016", // Notification toast background
+        "breadcrumb.background": "#0e1016" // Breadcrumb background
+    },
 }
